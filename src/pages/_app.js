@@ -1,5 +1,9 @@
-import "@/styles/globals.css";
+import '@/styles/globals.css'
+import 'leaflet/dist/leaflet.css';
+import 'leaflet-routing-machine/dist/leaflet-routing-machine.css'; // <-- ADD THIS LINE
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />
 }
+
+export default MyApp
